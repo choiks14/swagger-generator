@@ -4,7 +4,7 @@
      *
      * @OA\Get(
      *      path="/$MODEL_NAME_PLURAL_CAMEL$",
-     *      summary="get$MODEL_NAME$List",
+     *      summary="getList",
      *      tags={"$MODEL_NAME$"},
      *      description="Get all $MODEL_NAME_PLURAL$",
      *      @OA\Response(

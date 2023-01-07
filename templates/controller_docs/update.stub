@@ -5,7 +5,7 @@
      *
      * @OA\Put(
      *      path="/$MODEL_NAME_PLURAL_CAMEL$/{id}",
-     *      summary="update$MODEL_NAME$",
+     *      summary="update",
      *      tags={"$MODEL_NAME$"},
      *      description="Update $MODEL_NAME$",
      *      @OA\Parameter(

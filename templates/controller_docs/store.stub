@@ -4,7 +4,7 @@
      *
      * @OA\Post(
      *      path="/$MODEL_NAME_PLURAL_CAMEL$",
-     *      summary="create$MODEL_NAME$",
+     *      summary="create",
      *      tags={"$MODEL_NAME$"},
      *      description="Create $MODEL_NAME$",
      *      @OA\RequestBody(
