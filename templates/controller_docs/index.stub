@@ -1,6 +1,6 @@
 /**
      * @param Request $request
-     * @return \Illuminate\Http\JsonResponse
+     * @return JsonResponse
      *
      * @OA\Get(
      *      path="/$MODEL_NAME_PLURAL_CAMEL$",

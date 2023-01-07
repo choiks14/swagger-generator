@@ -1,6 +1,6 @@
 /**
      * @param int $id
-     * @return \Illuminate\Http\JsonResponse
+     * @return JsonResponse
      *
      * @OA\Delete(
      *      path="/$MODEL_NAME_PLURAL_CAMEL$/{id}",
