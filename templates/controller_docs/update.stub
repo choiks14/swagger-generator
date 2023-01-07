@@ -1,7 +1,7 @@
 /**
      * @param int $id
      * @param Request $request
-     * @return Response
+     * @return \Illuminate\Http\JsonResponse
      *
      * @OA\Put(
      *      path="/$MODEL_NAME_PLURAL_CAMEL$/{id}",

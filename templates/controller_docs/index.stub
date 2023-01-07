@@ -1,6 +1,6 @@
 /**
      * @param Request $request
-     * @return Response
+     * @return \Illuminate\Http\JsonResponse
      *
      * @OA\Get(
      *      path="/$MODEL_NAME_PLURAL_CAMEL$",
@@ -17,10 +17,19 @@
      *                  type="boolean"
      *              ),
      *              @OA\Property(
-     *                  property="data",
+     *                property="data",
+     *                @OA\Property(
+     *                  property="pagination",
+     *                  ref="#/components/schemas/Pagination"
+     *                ),
+     *                @OA\Property(
+     *                  property="list",
      *                  type="array",
-     *                  @OA\Items(ref="#/components/schemas/$MODEL_NAME$")
-     *              ),
+     *                  @OA\Items(
+     *                    ref="#/components/schemas/$MODEL_NAME$"
+     *                  )
+     *                )
+     *             ),
      *              @OA\Property(
      *                  property="message",
      *                  type="string"
